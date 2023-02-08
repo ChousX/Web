@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "Web"
+name = "WebFull"
 version = "0.1.0"
 
 [[package]]
@@ -1379,6 +1379,7 @@ dependencies = [
 name = "fleet"
 version = "0.1.0"
 dependencies = [
+ "courier",
  "enum-display-derive",
  "serde",
  "serde_json",
@@ -2630,6 +2631,7 @@ version = "0.1.0"
 dependencies = [
  "actix-web",
  "actix-web-lab",
+ "courier",
  "derive_more",
  "futures",
  "serde",
